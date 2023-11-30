@@ -1,0 +1,23 @@
+để là ***Biconnected,***  cần 2 điều kiện :
+
+- liên thông
+- không có articulation point
+
+và với ***Biconnected,*** sẽ có 2 tính chất :
+
+- có 2 đường đi giữa 2 đỉnh bất kỳ không giao nhau (1)
+- với bất kỳ điểm nào, nếu xóa nó và các cạnh kề, đồ thị vẫn liên thông (2)
+
+**chứng minh** rằng nếu không có điểm khớp thì đồ thị đó biconnected
+
+**giả sử:** nếu một đồ thị *không có điểm khớp* thì đồ thị đó *không biconnected* 
+
+**tức là:** với hai đỉnh A B bất kỳ trong đồ thị này, sẽ chỉ có 1 đường đi duy nhất 
+
+nếu trên đường X giữa A, B, ta lấy điểm C, thì theo giả thuyết, C không phải là điểm khớp
+
+tức khi xóa C đồ thị vẫn liên thông, chứng tỏ còn 1 đường Y nào đó giữa A, B
+
+→ xảy ra mâu thuẫn do có đến 2 đường X và Y nối giữa A, B 
+
+→ giả sử là sai.

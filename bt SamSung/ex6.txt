@@ -1,0 +1,5 @@
+- BFS chỉ hữu ích trong việc tách từng lớp các node theo từng tầng
+
+nó không thực sự đề cao thứ tự trước sau giữa các node bằng cách sử dụng *queue*
+
+- DFS đề cao hơn về thứ tự trước sau giữa các node bằng cách sử dụng *stack*

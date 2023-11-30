@@ -1,0 +1,7 @@
+Để chứng minh rằng có thể tính các đường đi ngắn nhất trong một đồ thị có hướng với các trọng số không âm tại các đỉnh bằng cách xây dựng một đồ thị có hướng với trọng số cạnh, chúng ta có thể sử dụng cơ sở của thuật toán Dijkstra.
+
+Thuật toán Dijkstra là một thuật toán tìm đường đi ngắn nhất từ một đỉnh nguồn đến tất cả các đỉnh còn lại trong đồ thị, với điều kiện rằng trọng số của các cạnh phải là không âm.
+
+Giả sử chúng ta có một đồ thị có hướng với các trọng số không âm tại các đỉnh. Để sử dụng thuật toán Dijkstra, chúng ta có thể xây dựng một đồ thị có hướng mới, trong đó mỗi cạnh (u→v) của đồ thị mới có trọng số bằng trọng số đỉnh v trong đồ thị cũ
+
+sau đó được đồ thị có hướng mới với các cạnh có trọng số, sử dụng thuật toán Dijkstra để tìm trọng số đường đi (tổng các trọng số cạnh) chính bằng trọng số đường đi của đồ thị cũ cần tìm
